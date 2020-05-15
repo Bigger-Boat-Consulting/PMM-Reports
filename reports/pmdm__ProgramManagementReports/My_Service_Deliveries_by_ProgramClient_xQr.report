@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>pmdm__ServiceDelivery__c.pmdm__DeliveryDate__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>pmdm__ServiceDelivery__c.pmdm__Quantity__c</field>
+    </columns>
+    <columns>
+        <field>pmdm__ServiceDelivery__c.pmdm__UnitOfMeasurement__c</field>
+    </columns>
+    <columns>
+        <field>pmdm__ServiceDelivery__c.pmdm__Service__c</field>
+    </columns>
+    <columns>
+        <field>CUST_OWNER_NAME</field>
+    </columns>
+    <description>Shows my service deliveries grouped by Program and Client for this and the previous month. For front-line staff.</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_$pmdm__ProgramEngagement__c.pmdm__Program__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>FK_$pmdm__ProgramEngagement__c.pmdm__Contact__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>My Service Deliveries by Program/Client</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$pmdm__ServiceDelivery__c@pmdm__ServiceDelivery__c.pmdm__ProgramEngagement__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>pmdm__ServiceDelivery__c.pmdm__DeliveryDate__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>pmdm__ServiceDelivery__c.pmdm__DeliveryDate__c</dateColumn>
+        <interval>INTERVAL_LASTTHISMONTH</interval>
+    </timeFrameFilter>
+</Report>
