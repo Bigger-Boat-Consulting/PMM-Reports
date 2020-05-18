@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+<types> 
+        <name>Report</name> 
+        <members>pmdm__ProgramManagementReports/My_Service_Deliveries_Last_Month_foJ</members> 
+<members>pmdm__ProgramManagementReports/My_Service_Deliveries_by_ProgramClient_xQr</members>
+<members>pmdm__ProgramManagementReports/My_Service_Deliveries_by_Clien_Last_Mnth_vx8</members>
+    </types>  
+  <version>48.0</version>
+</Package>
