@@ -33,7 +33,7 @@ To install in a production or sandbox environment, click on this button (step by
 
 1. Click the "Deploy to Salesforce" button above
 
-2. Choose the environment (Production or Sandbox) you want to install the reports into. We recommend installing in a sandbox first. Leave the other fields as they are. Click "Salesforce Login"
+2. Choose the environment (Production/Developer or Sandbox) you want to install the reports into. We recommend installing in a sandbox first. Leave the other fields as they are. Click "Login to Salesforce"
 
 ![Choose environment](https://biggerboatconsulting.com/wp-content/uploads/2020/06/Choose_the_environment.png)
 
