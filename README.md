@@ -23,6 +23,9 @@ Three add-on reports for the Salesforce.org Program Management Module (PMM). The
 
 Requirement: The Salesforce.org Program Management Module must be installed before installing these reports. The PMM can be installed at: https://install.salesforce.org/products/program-management
 
+To install in a production or sandbox environment, click on this button (step by step instructions below):
 <a href="https://githubsfdeploy.herokuapp.com?owner=Bigger-Boat-Consulting&amp;repo=PMM-Reports">
   <img src="https://raw.githubusercontent.com/afawcett/githubsfdeploy/master/src/main/webapp/resources/img/deploy.png" alt="Deploy to Salesforce" />
 </a>
+
+
