@@ -21,7 +21,7 @@ This repository contains three add-on reports for the Salesforce.org Program Man
 <li>The timeframe for the report can be changed via a filter</li>
   </ul>
 
-Requirement: The Salesforce.org Program Management Module must be installed before installing these reports. The PMM can be installed at: https://install.salesforce.org/products/program-management
+**Requirement:** The Salesforce.org Program Management Module must be installed before installing these reports. The PMM can be installed at: https://install.salesforce.org/products/program-management
 
 To install in a production or sandbox environment, click on this button (step by step instructions below):
 
