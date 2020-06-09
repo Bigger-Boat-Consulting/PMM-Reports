@@ -1,5 +1,5 @@
 # PMM-Reports
-Three add-on reports for the Salesforce.org Program Management Module (PMM). These reports are designed to help front-line staff (case managers, program managers, etc.)  track their service deliveries with clients.
+This repository contains three add-on reports for the Salesforce.org Program Management Module (PMM). These reports are designed to help front-line staff (case managers, program managers, etc.) track their service deliveries with clients:
 1. <b>My Service Deliveries Last Month</b>. This report provides front-line staff with a list of services they delivered to clients sorted by date. This can help with time tracking or workload management. Report notes:
 <ul>
 <li>As configured, this only shows service deliveries from last month.</li>
