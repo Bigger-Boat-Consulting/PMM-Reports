@@ -31,9 +31,9 @@ To install in a production or sandbox environment, click on this button (step by
 
 # Step by step installation instructions
 
-1. Click the Deploy to Salesforce button above
+1. Click the "Deploy to Salesforce" button above
 
-2. Select deploy to Production/Developer. We recommend installing in a sandbox first. Leave other fields as they are. Click "Salesforce Login"
+2. Choose the environment (Production or Sandbox) you want to install the reports into. We recommend installing in a sandbox first. Leave the other fields as they are. Click "Salesforce Login"
 
 ![Choose environment](https://biggerboatconsulting.com/wp-content/uploads/2020/06/Choose_the_environment.png)
 
@@ -41,7 +41,7 @@ To install in a production or sandbox environment, click on this button (step by
 
 ![Login](https://biggerboatconsulting.com/wp-content/uploads/2020/06/Salesforce-login.png)
 
-4. Confirm it's targeting the correct environment and then hit deploy
+4. Confirm it's targeting the correct environment and then hit "Deploy"
 
 ![Deploy](https://biggerboatconsulting.com/wp-content/uploads/2020/06/Ready_to_deploy.png)
 
@@ -51,4 +51,4 @@ To install in a production or sandbox environment, click on this button (step by
 
 6. Close the window and go to your Salesforce environment to confirm the installation of the reports in the Program Managment Reports folder
 
-Please report any issues to info [at] biggerboatconsulting [dot] com
+Please report any issues to **info [at] biggerboatconsulting [dot] com**
